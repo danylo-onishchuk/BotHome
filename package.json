@@ -1,19 +1,26 @@
 {
-  "name": "express-hello-world",
+  "name": "bothome",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "https://github.com/render-examples/express-hello-world",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "projectLanguage": "javascript",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ta1Fun1806/BotHome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ta1Fun1806/BotHome/issues"
+  },
+  "homepage": "https://github.com/ta1Fun1806/BotHome#readme",
   "dependencies": {
-    "express": "^4.16.3"
-  },
-  "engines": {
-    "node": ">=14"
+    "net-ping": "^1.2.3",
+    "node-telegram-bot-api": "^0.60.0"
   }
 }
