@@ -1,6 +1,7 @@
 import TelegramBot from 'node-telegram-bot-api';
 import ping from 'net-ping';
 
+
 const token = '5753137840:AAFKmXrrdeIYlwXbHlM8E92UwjMqR1YO_VI';
 
 const bot = new TelegramBot(token, {polling: true});
